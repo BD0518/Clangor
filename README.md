@@ -1,4 +1,4 @@
-# Clangor Issue Tracker
+# Clangor Issue Tracker 器鸣问题追踪
 
 ## English
 This repository is for reporting bugs and feedback only.
