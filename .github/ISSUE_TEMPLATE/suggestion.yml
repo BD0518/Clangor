@@ -2,6 +2,7 @@ name: "💡 Feature Suggestion / 奇思广议"
 description: "Share an idea to improve Clangor. / 集思广益，丰器鸣之响。"
 title: "[Suggestion]: "
 labels: ["enhancement"]
+assignees: ["BD0518"]
 body:
   - type: markdown
     attributes:
