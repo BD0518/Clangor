@@ -1,18 +1,18 @@
 name: "🐛 Bug Report / 问题反馈"
-description: Report a bug to help improve Clangor. / 反馈问题以帮助改进“器鸣”。
+description: "Report a bug to help improve Clangor. / 报器鸣之瑕，助其尽善"
 title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! 感谢你花时间提交反馈！
+        Thanks for taking the time to fill out this bug report! 鸣谢拨冗相助，共琢器鸣。
 
   - type: dropdown
     id: loader
     attributes:
       label: "Mod Loader / 加载器"
-      description: "Please confirm you are using Fabric. 请确认你使用的是 Fabric。"
+      description: "Please confirm you are using Fabric. 须为 Fabric。"
       options:
         - Fabric
     validations:
@@ -22,8 +22,8 @@ body:
     id: minecraft_version
     attributes:
       label: "Minecraft Version / 游戏版本"
-      description: "Which version of Minecraft are you running? 你运行的是哪个游戏版本？"
-      placeholder: "e.g. 1.21.1 / 26.1 (例如: 1.21.1 或 26.1)"
+      description: "Your game version. 所运行版本为？"
+      placeholder: "e.g. 1.21.1 (例: 1.21.1)"
     validations:
       required: true
 
@@ -31,8 +31,8 @@ body:
     id: mod_version
     attributes:
       label: "Mod Version / 模组版本"
-      description: "Which version of the mod do you have installed? 你安装的是哪个模组版本？"
-      placeholder: "e.g. 1.0.0 (例如: 1.0.0)"
+      description: "Your mod version. 所安装版本为？"
+      placeholder: "e.g. 1.0.0 (例: 1.0.0)"
     validations:
       required: true
 
@@ -40,8 +40,8 @@ body:
     id: description
     attributes:
       label: "Problem Description / 问题描述"
-      description: "What happened? 发生了什么？"
-      placeholder: "Please describe the bug in detail. 请详细描述问题内容。"
+      description: "What happened? 所为何事？"
+      placeholder: "Please describe the bug in detail. 请详述。"
     validations:
       required: true
 
@@ -49,7 +49,7 @@ body:
     id: steps
     attributes:
       label: "Steps to Reproduce / 重现步骤"
-      description: "How to trigger it? 如何重现问题？"
+      description: "How to trigger it? 如何重现？"
       placeholder: |
         1. 
         2. 
@@ -62,11 +62,11 @@ body:
     attributes:
       label: "latest.log / 最新日志"
       description: |
-        For best results, please **restart and reproduce** before uploading. 为了获得最佳分析结果，请**重启并重现**后上传。
+        For best results, please **restart and reproduce** before uploading. 请**重启并重现**后上传，以便分析。
         - **Official Launcher / 官方:** `.minecraft/logs/`
         - **PCL2 (版本隔离):** `.minecraft/versions/[Name]/logs/`
         - **Others / 其他:** `[Game Folder]/logs/`
-        Upload to [mclo.gs](https://mclo.gs/) and paste the link. 请上传至 [mclo.gs](https://mclo.gs/) 并在此处粘贴链接。
-      placeholder: "ex. https://mclo.gs/XXXXXXX (例如: https://mclo.gs/XXXXXXX)"
+        Upload to [mclo.gs](https://mclo.gs/) and paste the link. 请上传至 [mclo.gs](https://mclo.gs/) 并粘贴链接于此。
+      placeholder: "ex. https://mclo.gs/xxxxxx (例: https://mclo.gs/xxxxxx)"
     validations:
       required: true
