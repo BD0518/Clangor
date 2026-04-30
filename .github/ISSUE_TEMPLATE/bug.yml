@@ -66,7 +66,7 @@ body:
         - **Official Launcher / 官方:** `.minecraft/logs/`
         - **PCL2 (版本隔离):** `.minecraft/versions/[Name]/logs/`
         - **Others / 其他:** `[Game Folder]/logs/`
-        Upload to [mclo.gs](https://mclo.gs/) and paste the link. 请上传至 mclo.gs 并在此处粘贴链接。
+        Upload to [mclo.gs](https://mclo.gs/) and paste the link. 请上传至 [mclo.gs](https://mclo.gs/) 并在此处粘贴链接。
       placeholder: "ex. https://mclo.gs/XXXXXXX (例如: https://mclo.gs/XXXXXXX)"
     validations:
       required: false
