@@ -1,6 +1,6 @@
 # Clangor Issue Tracker 器鸣问题追踪
 
-## English
+## ENG
 This repo is for bug reports & feature suggestions only.
 * **Report:** Please [click here](https://github.com/BD0518/Clangor/issues/new/choose) to submit an issue.
 * **Download:** [Clangor on Modrinth](https://modrinth.com/mod/clangor)
