@@ -13,9 +13,11 @@ body:
     id: loader
     attributes:
       label: "Mod Loader / 加载器"
-      description: "Please confirm you are using Fabric. 须为 Fabric。"
+      description: "Please select the mod loader you are using. 所使用加载器。"
       options:
         - Fabric
+        - NeoForge
+        - Forge
     validations:
       required: true
 
